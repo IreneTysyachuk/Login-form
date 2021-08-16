@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    color:#fff
+}
+
+body {
+    background: url(http://grandvincent-marion.fr/img-codePen/bg.jpg) no-repeat;
+    -moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+   }
+
+.box {
+    width: 330px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.box label {
+    display: block;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+}
+
+.box input[type = "text"],.box input[type = "email"],.box input[type = "password"]{
+    display: block;
+    border: 0;
+    margin: auto;
+    padding: 14px 20px;
+    border-radius: 20px;
+    outline: none;
+    background: none;
+    box-shadow: inset 0px 0px 90px 0px rgb(250 247 251 / 20%);
+    text-align: left;
+    color: #ffff;
+    width: 88%;
+    font-weight: bold;
+    }
+
+.box div{
+    margin-top: 10px;
+}
+
+.box h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.box input[type = "submit"]{
+    display: block;
+    border: 0;
+    margin: auto;
+    padding: 12px 15px;
+    border-radius: 20px;
+    outline: none;
+    background-color: #1161ee;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.box .checkbox{
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.checkbox label{
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
